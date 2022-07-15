@@ -1,0 +1,32 @@
+console.log("Inside Script3");
+const students = [
+ {name:"Deepak" , subject:"English"},
+ {name:"Ajay" , subject:"English"},
+ {name:"Mayank" , subject:"Maths"}
+];
+
+function EnrollStudent(student)
+{setTimeout(()=>
+  {
+    students.push(student);
+    console.log("Studnet is enrolled")
+  },3000);
+  }
+
+function DispalyStudents()
+{ 
+  setTimeout(()=>
+  {
+    let str = "";
+    students.forEach(student=>
+    {
+      str+= '<li>' + student.name + '</li>';
+    });
+    
+  document.getElementById("studentsList").innerHTML=str;
+  },1000);
+}
+
+var student = {name:"Preeti", subject:"Maths"};
+EnrollStudent(student);
+DispalyStudents();
