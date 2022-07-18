@@ -23,3 +23,9 @@ function App() {
 }
 
 export default App;
+// components 
+// function  ., easier to write, we have to use hooks
+// class , its a class which inehrits from Component class
+// class comp gives you so many features  , managing state, com life cycle methods 
+
+
