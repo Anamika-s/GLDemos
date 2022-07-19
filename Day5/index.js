@@ -2,6 +2,7 @@ console.log("Execution Context");
 console.log("first statement");
 var ga = 1000;
 
+
 function a()
 {
   var fa = 100;

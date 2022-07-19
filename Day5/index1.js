@@ -1,4 +1,6 @@
 console.log("Debugging")
+
+
 var i= 1;
 var j= 100;
 function a()
@@ -20,4 +22,4 @@ j++;
   }
 }
 
-a();
+// a();
