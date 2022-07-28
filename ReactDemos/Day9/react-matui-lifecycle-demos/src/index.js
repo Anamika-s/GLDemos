@@ -9,6 +9,7 @@ import PureComp from './PureComp'
 import UseMemoDemo from './UseMemoDemo';
 import reportWebVitals from './reportWebVitals';
 import App1 from './components/App1'
+import App from './comps/App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
@@ -18,7 +19,7 @@ root.render(
     // <GridDemo/>
     // <>    <PureComp/>
     // <UseMemoDemo/> 
-<App1/>
+<App/>
   // </React.StrictMode>
 );
 
